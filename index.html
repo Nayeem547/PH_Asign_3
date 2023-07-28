@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,23 +39,19 @@
          background: ;
          
     }
-    .car_title h2{
-        border-bottom: 1px solid black;
-        border-bottom-width: 2px;
-       
-    }
+    
   </style>
 </head>
 <body>
 
     <nav >
-        <div class="navbar py-6 lg:bg-color-primary rounded-[40px]">
-            <div class="flex justify-start w-[50%] ">
-              <div class="dropdown">
+        <div class="navbar flex-row-reverse lg:flex-row py-6 lg:bg-color-primary rounded-[40px]">
+            <div class="flex justify-end lg:justify-start w-[50%] ">
+              <div class="dropdown ">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2  shadow bg-base-100 right-0 rounded-box w-52">
                     <input type="text" placeholder="Type here" class="input input-bordered input-info rounded-3xl w-full max-w-xs relative"  /> <i class="fa-solid fa-magnifying-glass absolute  right-6 p-4"></i>
                     <li><a>Home</a></li>
                     <li tabindex="0">
@@ -79,14 +75,14 @@
                 </ul>
               </div>
             </div>
-            <div class="nav_head_icon gap-[15px]">
+            <div class="nav_head_icon flex justify-start gap-[15px]">
                 <div class="nav_icon_img">
                     <img src="img/logo.png" alt="">
                 </div>
                 
                   
                     <div class="nav_icon_text w-[166px]">
-                        <h1 class="text-3xl lato font-medium lg:text-white">Fruit Burst</h1>
+                        <h1 class="text-2xl lg:text-3xl lato font-medium lg:text-white">Fruit Burst</h1>
                     </div>
             </div>
            
@@ -101,7 +97,7 @@
         <section>
             <div class="carousel relative w-full  py-10"> 
                             <div id="slide1" class="carousel-item relative w-full">
-                                <div class="hero sm:h-[190px] md:h-[400px] lg:h-[600px]" style="background-image: url(./img/banner1.png);">
+                                <div class="hero  sm:h-[190px] md:h-[400px] lg:h-[600px]" style="background-image: url(./img/banner1.png);">
                                     <div class="hero-overlay bg-opacity-40"></div>
                                     <div class="hero-content text-center text-white">
                                       <div class="max-w-md">
@@ -588,9 +584,14 @@
                       </svg>
                 </div>
                 <div class="car_title">
-                    <h2 class="text-xl font-bold " >Dedicated Team</h2> 
+                  <div class="card_title_border flex flex-col justify-center ">
+                    <h2 class="text-xl font-bold" >Dedicated Team </h2>
+                    <div class="hroi_zontal flex justify-center lg:justify-start text-center w-full">
+                        <hr class="border-2 border-black w-[200px] ">
+                    </div>
+                   </div>
                     
-                    <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
             </div>  <!--whys_card-->
             <div class="whys_card flex flex-col lg:flex-row">
@@ -600,8 +601,13 @@
                       </svg>
                 </div>
                 <div class="car_title">
-                    <h2 class="text-xl font-bold" >Fresh is Best</h2>
-                    <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                  <div class="card_title_border flex flex-col justify-center ">
+                    <h2 class="text-xl font-bold" >Fresh is Best </h2>
+                    <div class="hroi_zontal flex justify-center lg:justify-start text-center w-full">
+                        <hr class="border-2 border-black w-[200px] ">
+                    </div>
+                   </div>
+                    <p>Professional employees are there for you to pick  the most amazing and fresh fruits.</p>
                 </div>
             </div>  <!--whys_card-->
             <div class="whys_card flex flex-col lg:flex-row">
@@ -629,8 +635,13 @@
                       </svg>
                 </div>
                 <div class="car_title">
+                  <div class="card_title_border flex flex-col justify-center ">
                     <h2 class="text-xl font-bold" >Gift Certificates</h2>
-                    <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                    <div class="hroi_zontal flex justify-center lg:justify-start text-center w-full">
+                        <hr class="border-2 border-black w-[200px] ">
+                    </div>
+                   </div>
+                    <p>Professional employees are there for you to pick  the most amazing and fresh fruits.</p>
                 </div>
             </div>  <!--whys_card-->
            
@@ -653,7 +664,12 @@
                   </svg>
             </div>
             <div class="car_title">
-                <h2 class="text-xl font-bold" >Dedicated Team</h2>
+              <div class="card_title_border flex flex-col justify-center ">
+                <h2 class="text-xl font-bold" >Integrated Supplier</h2>
+                <div class="hroi_zontal flex justify-center lg:justify-end text-center w-full">
+                    <hr class="border-2 border-black w-[200px] ">
+                </div>
+               </div>
                 <p>Professional employees are there for you to pick  the most amazing and fresh fruits.</p>
             </div>
         </div>  <!--whys_card-->
@@ -664,7 +680,12 @@
                   </svg>
             </div>
             <div class="car_title ">
-                <h2 class="text-xl font-bold" >Fresh is Best</h2>
+               <div class="card_title_border flex flex-col justify-center ">
+                <h2 class="text-xl font-bold" >Sustainable Practice </h2>
+                <div class="hroi_zontal flex justify-center lg:justify-end text-center w-full">
+                    <hr class="border-2 border-black w-[200px] ">
+                </div>
+               </div>
                 <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
         </div>  <!--whys_card-->
@@ -693,7 +714,12 @@
                   </svg>
             </div>
             <div class="car_title">
-                <h2 class="text-xl font-bold" >Gift Certificates</h2>
+              <div class="card_title_border flex flex-col justify-center ">
+                <h2 class="text-xl font-bold" >The Benefits Only </h2>
+                <div class="hroi_zontal flex justify-center lg:justify-end text-center w-full">
+                    <hr class="border-2 border-black w-[200px] ">
+                </div>
+               </div>
                 <p>Professional employees are there for you to pick  the most amazing and fresh fruits.</p>
             </div>
         </div>  <!--whys_card-->
